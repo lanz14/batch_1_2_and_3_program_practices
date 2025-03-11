@@ -5,3 +5,8 @@
 # If a number input is not equal to a remainder of zero it will be added as an odd number
 # Printing how many are the odd numbers
 # Indicating what odd numbers were entered
+
+print("(Integers are only acceptable inputs)")
+
+for input in range(10):
+    numbers = int(input(f"Input number {input+1}: "))
