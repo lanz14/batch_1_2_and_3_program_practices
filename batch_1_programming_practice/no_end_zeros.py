@@ -3,3 +3,7 @@
 # Using for loop with the range of (0,101)
 # Number is divided by 10 
     # If it is equal to the remainder of zero it will be not printed
+
+for number in range(101):
+    if number % 10 != 0:    
+        print(number)
