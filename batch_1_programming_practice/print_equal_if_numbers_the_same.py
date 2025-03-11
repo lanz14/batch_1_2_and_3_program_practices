@@ -6,3 +6,9 @@
     # If number 1 is greater than number 2 the output will be "Not Equal"
     # elif number 1 is equal to number 2 the output will be "Equal"
     # else, number 1 is less than number 2 the output will be "Not Equal"
+
+print("(For inputs, integers are only acceptable)")
+
+number_1 = int(input("Input the first number: "))
+number_2 = int(input("Input the second number: "))
+
