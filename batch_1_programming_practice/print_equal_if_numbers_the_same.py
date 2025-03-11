@@ -12,3 +12,12 @@ print("(For inputs, integers are only acceptable)")
 number_1 = int(input("Input the first number: "))
 number_2 = int(input("Input the second number: "))
 
+if number_1 > number_2:
+    print("\nNot Equal")
+
+elif number_1 == number_2:
+    print("\nEqual")
+
+else:
+    print("\nNot Equal")
+
