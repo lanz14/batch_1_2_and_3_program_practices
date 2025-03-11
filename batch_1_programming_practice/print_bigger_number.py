@@ -7,6 +7,8 @@
     # If the number 1 is equal to number 2, the output will be they are both equal.
     # else the number 2 will be printed as the bigger number, if these are false.
 
+print("(Integers are the only acceptable inputs)")
+
 number_1 = int(input("Enter the first number: "))
 number_2 = int(input("Enter the second number: "))
 
