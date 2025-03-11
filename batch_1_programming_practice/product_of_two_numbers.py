@@ -9,3 +9,7 @@ print("(For inputs, integers are only acceptable)")
 
 number_1 = int("Input the first number: ")
 number_2 = int("Input the second number: ")
+
+product = number_1 * number_2
+
+print(f"The product is: {product}")
