@@ -4,5 +4,10 @@
     # Asking the user to input ten numbers
 # After obtaining the inputs get the sum
 
+total = 0
+
 for numbers in range(10):
-    inputs = float(input(f"\nInput number {numbers+1}: "))
+    inputs = float(input(f"Input number {numbers+1}: "))
+    total += inputs
+
+print("The sum of all numbers is:", total)
