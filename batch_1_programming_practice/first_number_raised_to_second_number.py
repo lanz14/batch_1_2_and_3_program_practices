@@ -4,3 +4,8 @@
     # The numbers must be integers only.
 # First number raised to the second number
 # Print the result
+
+print("(Integers are the only acceptable inputs)")
+
+number_1 = int(input("Input the first number: "))
+number_2 = int(input("Input the first number: "))
