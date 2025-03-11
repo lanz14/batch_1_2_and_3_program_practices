@@ -2,3 +2,7 @@
 
 # Using for loop with the range of (0,101)
 # If number is equal to the remainder of zero it will be printed as even number
+
+for number in range(1,101):
+    if number % 2 == 0:
+        print(number)
