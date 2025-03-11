@@ -11,3 +11,12 @@ print("\n(For inputs, integers are only acceptable)")
 
 number_1 = int(input("\nInput the first number: "))
 number_2 = int(input("Input the second number: "))
+
+if number_1 > number_2:
+    print(f"\nThe smaller number is {number_2}")
+
+elif number_1 == number_2:
+    print(f"\nThe 2 numbers are the same")
+
+else:
+    print(f"\nThe smaller number is {number_1}")
