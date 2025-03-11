@@ -7,8 +7,8 @@
 
 print("(For inputs, integers are only acceptable)")
 
-number_1 = int("Input the first number: ")
-number_2 = int("Input the second number: ")
+number_1 = int(input("Input the first number: "))
+number_2 = int(input("Input the second number: "))
 
 product = number_1 * number_2
 
