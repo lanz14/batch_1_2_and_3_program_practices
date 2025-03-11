@@ -9,3 +9,7 @@ print("(For inputs, integers are only acceptable)")
 
 number_1 = int(input("Input the first number: "))
 number_2 = int(input("Input the second number: "))
+
+quotient = number_1 / number_2
+
+print("\nThe quotient is: %.2f"%quotient)
