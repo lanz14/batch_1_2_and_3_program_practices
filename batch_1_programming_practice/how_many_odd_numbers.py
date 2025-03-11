@@ -8,5 +8,10 @@
 
 print("(Integers are only acceptable inputs)")
 
+odd_count = 0
+odd_numbers = []
+
 for input in range(10):
     numbers = int(input(f"Input number {input+1}: "))
+    odd_count += 1
+    odd_numbers.append(numbers)
