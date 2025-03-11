@@ -9,3 +9,12 @@
 
 number_1 = int(input("Enter the first number: "))
 number_2 = int(input("Enter the second number: "))
+
+if number_1 > number_2:
+    print(f"The bigger number is {number_1}")
+
+elif number_1 == number_2:
+    print(f"There are no bigger numbers since they are both equal.")
+
+else:
+    print(f"The bigger number is {number_2}")
