@@ -6,3 +6,8 @@
     # if number 1 is greater than number 2, print the smaller number is number 2.
     # elif, number 1 is equal to number 2, print they are equal.
     # else, print the smaller number is number 1.
+
+print("\n(For inputs, integers are only acceptable)")
+
+number_1 = int(input("\nInput the first number: "))
+number_2 = int(input("Input the second number: "))
