@@ -11,7 +11,15 @@ print("(Integers are only acceptable inputs)")
 odd_count = 0
 odd_numbers = []
 
-for input in range(10):
-    numbers = int(input(f"Input number {input+1}: "))
-    odd_count += 1
-    odd_numbers.append(numbers)
+for inputs in range(10):
+    numbers = int(input(f"Input number {inputs+1}: "))
+    if numbers % 2 != 0:
+        odd_count += 1
+        odd_numbers.append(numbers)
+
+print(f"The number of odd numbers entered is: {odd_count}")
+
+if odd_numbers:
+        print("The odd numbers are:", ", ".join(map(str, odd_numbers)))
+else:
+    pass
