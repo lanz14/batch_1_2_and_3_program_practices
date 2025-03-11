@@ -3,3 +3,6 @@
 # Implementing a for loop function in the range of 10
     # Asking the user to input ten numbers
 # After obtaining the inputs get the sum
+
+for numbers in range(10):
+    inputs = float(input(f"\nInput number {numbers+1}: "))
