@@ -9,3 +9,7 @@ print("(Integers are the only acceptable inputs)")
 
 number_1 = int(input("Input the first number: "))
 number_2 = int(input("Input the first number: "))
+
+result = number_1 ** number_2
+
+print(f"{number_1} raised to {number_2} is equal to: {result}")
