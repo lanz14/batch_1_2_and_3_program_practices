@@ -12,9 +12,17 @@ number_2 = int(input("Input the second number: "))
 # Get the quotient
 quotient = number_1 / number_2
 
+# Rounding up
+decimal = quotient % 1
+
 # Print result without decimal point
-if quotient % 1 > 0:
+if decimal >= 0.5:
     rounded_up = math.ceil(quotient)
     print(f"\nThe quotient is {quotient} rounded up to {rounded_up}")
-elif quotient % 1 == 0:
-        print(f"\nThe quotient is: {int(quotient)}")
+
+elif 0.1 <= decimal <= 0.4:
+    rounded = math.floor(quotient)
+    print(f"\nThe quotient is {quotient} rounded to {rounded}")
+
+else:
+    print(f"\nThe quotient is: {int(quotient)}")
