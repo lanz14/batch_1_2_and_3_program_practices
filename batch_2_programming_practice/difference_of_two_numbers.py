@@ -8,4 +8,7 @@ number_1 = int(input("\nInput the first number: "))
 number_2 = int(input("Input the second number: "))
 
 # number 1 minus number 2
+difference = number_1 - number_2
+
 # Print the difference
+print("\nThe difference is:", difference)
