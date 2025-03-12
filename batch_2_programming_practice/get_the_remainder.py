@@ -8,5 +8,7 @@ number_1 = int(input("\nInput the first number: "))
 number_2 = int(input("Input the second number: "))
 
 # Get the remainder
+remainder = number_1 % number_2
 
 # Print result
+print(f"\nThe remainder is: {remainder}")
