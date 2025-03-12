@@ -8,8 +8,16 @@ number_1 = int(input("\nInput the first number: "))
 number_2 = int(input("Input the second number: "))
 
 # If number 1 is greater than number 2
-# Print "Not Equal"
+if number_1 > number_2:
+    # Print "Not Equal"
+    print("\nNot Equal")
+
 # If number 1 is less than number 2
-# Print "Not Equal"
+elif number_1 < number_2:
+    # Print "Not Equal"
+    print("\nNot Equal")
+
 # If number 1 is equal to number 2
-# Print that the two numbers are equal
+else:
+    # Print that the two numbers are equal
+    print("\nThe numbers are the same")
