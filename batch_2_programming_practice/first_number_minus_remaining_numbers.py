@@ -10,4 +10,9 @@ for i in range(10):
     numbers.append(inputs)
 
 # Calculating first number minus remaining nine numbers
+result = numbers[0]
+for i in range(1, 10):
+    result -= numbers[i]
+
 # Print result
+print(f"The first number minus all remaining numbers is: {result}")
