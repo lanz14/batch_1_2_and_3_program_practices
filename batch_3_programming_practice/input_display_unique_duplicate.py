@@ -7,7 +7,17 @@ previous_inputs = []
 print("\nInput any numbers:")
 
 while True:
-    user_input = float(input("Input a number: "))
+    try:
+        user_input = float(input("Input a number: "))
 
 # Check if the input is a "Duplicate" or "Unique" upon inputting
+        if user_input in previous_inputs:
+            print("Duplicate")
+        else:
+            print("Unique")
+            previous_inputs.append(user_input)
+
 # Terminate the program if the input is invalid
+    except ValueError:
+        print("Invalid input. Numbers are the only valid inputs. Program terminated")
+        break
