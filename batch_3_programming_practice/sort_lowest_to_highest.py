@@ -8,4 +8,13 @@ while True:
     user_input = input("(Any non-numeric values will make the program terminate) Input a number: ")
 
 # check if inputs are valid
+    try:
+        number = float(user_input)
+        numbers.append(number)
+
+    except ValueError:  
+        break  
+
 # display the sorted numbers
+numbers.sort() 
+print("\nSorted numbers:", numbers)
